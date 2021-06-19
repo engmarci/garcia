@@ -72,4 +72,4 @@ jobs:
        with:
          heroku_api_key: ${{d1195b82-1eec-401b-8dec-e3463a737725}}
          heroku_app_name: garcia-marcio # Must be unique in Heroku
-         heroku_email: ${{garcia.marcio.br@gmail.com}}
+         heroku_email: ${{"garcia.marcio.br@gmail.com"}}
